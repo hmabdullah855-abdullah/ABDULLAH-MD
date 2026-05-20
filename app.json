@@ -1,0 +1,21 @@
+{
+  "name": "ABDULLAH-MD",
+  "description": "ABDULLAH-MD WhatsApp bot made by ABDULLAH MD official",
+  "logo": "https://i.ibb.co/bgNjJjNZ/20260520-102504.jpg",
+  "keywords": ["bot","ABDULLAH-MD","ABDULLAH-MD"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the ABDULLAH-MD session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/hmabdullah855-abdullah/ABDULLAH-MD.git"
+    }
+],
+"stack": "heroku-24"
+}
